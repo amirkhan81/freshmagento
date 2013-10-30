@@ -1,0 +1,964 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"no",
+				"no-repeat  (value)"
+			],
+			[
+				"list",
+				"list-style"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "theme146k/CMS Page Layouts/FindARep.html",
+			"settings":
+			{
+				"buffer_size": 38171,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "theme146k/app/design/frontend/default/theme146k/template/catalog/product/view.phtml",
+			"settings":
+			{
+				"buffer_size": 10210,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<?php if ($_product->getResource()->getAttribute('in_store_only')->getFrontend()->getValue($_product) == \"No\"): ?>\n<?php if($_product->isSaleable()): ?>\n    <div class=\"add-to-cart\">\n    \n    <?php echo $this->getPriceHtml($_product) ?>\n        <?php if(!$_product->isGrouped()): ?>\n        <label for=\"qty\"><?php echo $this->__('Qty:') ?></label>\n        <input type=\"text\" name=\"qty\" id=\"qty\" maxlength=\"12\" value=\"<?php echo $this->getProductDefaultQty() * 1 ?>\" title=\"<?php echo $this->__('Qty') ?>\" class=\"input-text qty\" />\n        <?php endif; ?>\n        <button type=\"button\" title=\"<?php echo $buttonTitle ?>\" class=\"button btn-cart\" onclick=\"productAddToCartForm.submit(this)\"><span><span><?php echo $buttonTitle ?></span></span></button>\n        <span id='ajax_loader' style='display:none'><img src='<?php echo $this->getSkinUrl('images/opc-ajax-loader.gif')?>'/></span>\n        \n        <?php echo $this->getChildHtml('', true, true) ?>\n    </div>\n<?php endif; ?>\n<?php else: ?>\n    <fieldset class=\"add-to-cart-box\">\n        <span class=\"in-store-only\">Sorry, this product is not currently available online, <a href=\"/index.php/out-of-stock-contact-form/\">please contact us for availability.</a></span>\n    </fieldset>\n    <br/>\n    <a href=\"/index.php/out-of-stock-contact-form/#<?php echo $_product->getName() . ' ' . $_product->getSku(); ?>\" class=\"clearfix\"><button type=\"button\" title=\"<?php echo $this->__('Contact Us') ?>\" class=\"button btn-cart\"><span><span><?php echo $this->__('Contact Us') ?></span></span></button></a>\n    <br/>\n<?php endif; ?>",
+			"settings":
+			{
+				"buffer_size": 1570,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "theme146k/app/design/frontend/default/theme146k/template/catalog/product/view/addtocart.phtml",
+			"settings":
+			{
+				"buffer_size": 1730,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "theme146k/app/design/frontend/default/theme146k/template/catalog/product/list/related.phtml",
+			"settings":
+			{
+				"buffer_size": 4652,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"ftp",
+				"SFTP: Setup Server…"
+			],
+			[
+				"package control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/skin/frontend/default/theme146k/css/styles.css",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/2columns-left.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/1column.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/ajax/catalog/product/view/addtocart.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/contacts/outofstockform.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/CMS Page Layouts/OurTeam.html",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/sales/guest/form.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/list.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/html/head.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/CMS Page Layouts/FindARep.html",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/suggested_environments.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/fragrances.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/html/header.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/environments.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/skin/frontend/default/theme146k/css/vpager.css",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/skin/frontend/default/theme146k/css/webandpeople/custommenu/custommenu.css",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/category/subcategorylist.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/layout/catalog.xml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/view/price.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/CMS Page Layouts/Fragrances.html",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/price.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/ajaxwishlist/catalog/product/list.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/CMS Page Layouts/HeaderPages.html",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/CMS Page Layouts/HeaderSlider.html",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/new.phtml",
+		"/Users/blackswan2/Desktop/list backup",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/ajax/catalog/product/view.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/contacts/simpleForm.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/contacts/form.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/CMS Page Layouts/MSDS.html",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/CMS Page Layouts/Literature.html",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/CMS Page Layouts/Environment.html",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/view/addtocart.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/view/price_clone.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/view/tierprices.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/view/description.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/view/type/default.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/view.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/CMS Page Layouts/Environments.html",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/ajax/catalog/product/options.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/2columns-right.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/code/local/WP/CustomMenu/Block/Topmenu.php",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/html/top.links.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/list/related.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/skin/frontend/default/theme146k/css/easytabs.css",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/layout/page.xml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/base/default/template/cms/content_heading_large.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/base/default/template/cms/content_heading.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/code/local/Fresh/Fragrances/etc/config.xml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/code/local/Fresh/Fragrances/config.xml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/etc/modules/Fresh_Fragrances.xml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/code/local/Fresh/Layouts/etc/config.xml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/etc/modules/Fresh_Layouts.xml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/template/linkscontact.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/html/pager.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/3columns.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/category/subcategorylist.html",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/category/view.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/layout/ajaxwishlist.xml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/list/toolbar/toolbar.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/base/default/template/page/html/topmenu.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/html/footer.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/html/pager/pager.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/skin/frontend/default/theme146k/fonts/texgyreadventor-bold-webfont.svg",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/base/default/template/page/switch/flags.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/locale/en_US/template/email/account_new.html",
+		"/Users/blackswan2/Documents/Fresh Products/Magento/Backups/freshproducts.com-partial-Aug.12.2013-13.35.34/freshpro/freshproducts.com/html/app/design/frontend/default/theme146k/template/page/html/header.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/base/default/template/page/switch/languages.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/base/default/template/page/switch/stores.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/layout/easytabs.xml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/sftp-config.json",
+		"/Applications/MAMP/htdocs/marathon/scripts/main-ck.js",
+		"/Applications/MAMP/htdocs/marathon/scripts/main.js",
+		"/Volumes/C/Users/amir_000/Downloads/Umbraco-CMS-7.0.0/Umbraco-CMS-7.0.0/README.md",
+		"/Applications/MAMP/htdocs/plugins/Maps/jQuery-Store-Locator-Plugin-master/readme.md",
+		"/Applications/MAMP/htdocs/plugins/Charts/rendro-easy-pie-chart-5a016ee/examples/index.html",
+		"/Applications/MAMP/htdocs/plugins/Charts/rendro-easy-pie-chart-5a016ee/examples/simple.html",
+		"/Applications/MAMP/htdocs/marathon/sftp-config.json",
+		"/Users/blackswan2/Desktop/states.txt",
+		"/Applications/MAMP/htdocs/marathon/css/normalize.css",
+		"/Applications/MAMP/htdocs/marathon/css/main.css",
+		"/Applications/MAMP/htdocs/marathon/css/SCSS/_main.scss",
+		"/Applications/MAMP/htdocs/marathon/index.html",
+		"/Users/blackswan2/Desktop/test.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"regular-price",
+			"price",
+			"australia",
+			"subcategory",
+			"toolbar",
+			"search",
+			"ABABD4",
+			"searc",
+			"clearfix mix eu mix_all",
+			"eu",
+			"=",
+			"kiwi grape",
+			"kentucy",
+			"contact",
+			"learn more",
+			"add",
+			"list-inner",
+			"list-inner\"",
+			"Add to Cart",
+			"<block type=\"catalog/product_list\" name=\"product_list\" template=\"catalog/product/list.phtml\">",
+			"view.phtml",
+			"learn more",
+			"test",
+			"learn more",
+			"add to cart",
+			"add to car",
+			"price",
+			"add to cart",
+			"Add to Cart",
+			"add to cart",
+			"Add to Cart",
+			"add to cart",
+			"Add to Cart",
+			"add to cart",
+			"Add to Cart",
+			"add to cart",
+			"Add to Cart",
+			"Add to",
+			"add to cart",
+			"price",
+			"price-box",
+			"#nav li a",
+			"our-fragrances",
+			"short",
+			"stock",
+			"product-name",
+			">a",
+			"North America",
+			"</h2>",
+			"{{store url='environments/",
+			"non",
+			"viceo",
+			"                        \n",
+			"                        ",
+			"                        \n",
+			"\n                        ",
+			"                        \n",
+			"<img src=\"\" />",
+			"pineapple",
+			"<img src=\"\" />",
+			"springtime",
+			"page_three_columns",
+			"avant",
+			"page-title h1",
+			"jspcontaner",
+			"desc std",
+			"product_tabs_custom_contents",
+			"quick",
+			"quick-view",
+			"loader",
+			"load",
+			"loading",
+			"shadow",
+			"page-title",
+			"1024px",
+			".page",
+			"bread",
+			"#nav",
+			".button",
+			"nav",
+			"url('",
+			".page-title",
+			".item",
+			"headrow",
+			"actions",
+			"setLocationAjax('<?php echo $this->getAddToCartUrl($_product) ?>','<?php echo $_product->getId()?>')",
+			"Add to Cart",
+			"actions",
+			"add to cart",
+			"#product_tabs_tags_tabbed_contents",
+			"#AAAAD3",
+			"</option>",
+			"\">"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "theme146k/CMS Page Layouts/FindARep.html",
+					"settings":
+					{
+						"buffer_size": 38171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								38171
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 10294.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "theme146k/app/design/frontend/default/theme146k/template/catalog/product/view.phtml",
+					"settings":
+					{
+						"buffer_size": 10210,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2702,
+								2702
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 733.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"settings":
+					{
+						"buffer_size": 1570,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1570,
+								1570
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "theme146k/app/design/frontend/default/theme146k/template/catalog/product/view/addtocart.phtml",
+					"settings":
+					{
+						"buffer_size": 1730,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "theme146k/app/design/frontend/default/theme146k/template/catalog/product/list/related.phtml",
+					"settings":
+					{
+						"buffer_size": 4652,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2240,
+								2240
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 285.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,343 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"no",
+				"no-repeat  (value)"
+			],
+			[
+				"list",
+				"list-style"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"ftp",
+				"SFTP: Setup Server…"
+			],
+			[
+				"package control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/2columns-left.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/1column.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/ajax/catalog/product/view/addtocart.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/contacts/outofstockform.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/CMS Page Layouts/OurTeam.html",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/sales/guest/form.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/list.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/html/head.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/CMS Page Layouts/FindARep.html",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/suggested_environments.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/fragrances.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/html/header.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/environments.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/skin/frontend/default/theme146k/css/vpager.css",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/skin/frontend/default/theme146k/css/webandpeople/custommenu/custommenu.css",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/skin/frontend/default/theme146k/css/styles.css",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/category/subcategorylist.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/layout/catalog.xml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/view/price.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/CMS Page Layouts/Fragrances.html",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/price.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/ajaxwishlist/catalog/product/list.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/CMS Page Layouts/HeaderPages.html",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/CMS Page Layouts/HeaderSlider.html",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/new.phtml",
+		"/Users/blackswan2/Desktop/list backup",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/ajax/catalog/product/view.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/contacts/simpleForm.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/contacts/form.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/CMS Page Layouts/MSDS.html",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/CMS Page Layouts/Literature.html",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/CMS Page Layouts/Environment.html",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/view/addtocart.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/view/price_clone.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/view/tierprices.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/view/description.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/view/type/default.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/view.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/CMS Page Layouts/Environments.html",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/ajax/catalog/product/options.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/2columns-right.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/code/local/WP/CustomMenu/Block/Topmenu.php",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/html/top.links.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/list/related.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/skin/frontend/default/theme146k/css/easytabs.css",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/layout/page.xml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/base/default/template/cms/content_heading_large.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/base/default/template/cms/content_heading.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/code/local/Fresh/Fragrances/etc/config.xml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/code/local/Fresh/Fragrances/config.xml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/etc/modules/Fresh_Fragrances.xml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/code/local/Fresh/Layouts/etc/config.xml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/etc/modules/Fresh_Layouts.xml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/template/linkscontact.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/html/pager.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/3columns.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/category/subcategorylist.html",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/category/view.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/layout/ajaxwishlist.xml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/catalog/product/list/toolbar/toolbar.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/base/default/template/page/html/topmenu.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/html/footer.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/template/page/html/pager/pager.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/skin/frontend/default/theme146k/fonts/texgyreadventor-bold-webfont.svg",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/base/default/template/page/switch/flags.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/locale/en_US/template/email/account_new.html",
+		"/Users/blackswan2/Documents/Fresh Products/Magento/Backups/freshproducts.com-partial-Aug.12.2013-13.35.34/freshpro/freshproducts.com/html/app/design/frontend/default/theme146k/template/page/html/header.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/base/default/template/page/switch/languages.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/base/default/template/page/switch/stores.phtml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/app/design/frontend/default/theme146k/layout/easytabs.xml",
+		"/Applications/MAMP/htdocs/freshmagento/theme146k/sftp-config.json",
+		"/Applications/MAMP/htdocs/marathon/scripts/main-ck.js",
+		"/Applications/MAMP/htdocs/marathon/scripts/main.js",
+		"/Volumes/C/Users/amir_000/Downloads/Umbraco-CMS-7.0.0/Umbraco-CMS-7.0.0/README.md",
+		"/Applications/MAMP/htdocs/plugins/Maps/jQuery-Store-Locator-Plugin-master/readme.md",
+		"/Applications/MAMP/htdocs/plugins/Charts/rendro-easy-pie-chart-5a016ee/examples/index.html",
+		"/Applications/MAMP/htdocs/plugins/Charts/rendro-easy-pie-chart-5a016ee/examples/simple.html",
+		"/Applications/MAMP/htdocs/marathon/sftp-config.json",
+		"/Users/blackswan2/Desktop/states.txt",
+		"/Applications/MAMP/htdocs/marathon/css/normalize.css",
+		"/Applications/MAMP/htdocs/marathon/css/main.css",
+		"/Applications/MAMP/htdocs/marathon/css/SCSS/_main.scss",
+		"/Applications/MAMP/htdocs/marathon/index.html",
+		"/Users/blackswan2/Desktop/test.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"australia",
+			"subcategory",
+			"toolbar",
+			"search",
+			"ABABD4",
+			"searc",
+			"clearfix mix eu mix_all",
+			"eu",
+			"=",
+			"kiwi grape",
+			"kentucy",
+			"contact",
+			"learn more",
+			"add",
+			"list-inner",
+			"list-inner\"",
+			"Add to Cart",
+			"<block type=\"catalog/product_list\" name=\"product_list\" template=\"catalog/product/list.phtml\">",
+			"view.phtml",
+			"learn more",
+			"test",
+			"learn more",
+			"add to cart",
+			"add to car",
+			"price",
+			"add to cart",
+			"Add to Cart",
+			"add to cart",
+			"Add to Cart",
+			"add to cart",
+			"Add to Cart",
+			"add to cart",
+			"Add to Cart",
+			"add to cart",
+			"Add to Cart",
+			"Add to",
+			"add to cart",
+			"price",
+			"price-box",
+			"#nav li a",
+			"our-fragrances",
+			"short",
+			"stock",
+			"product-name",
+			">a",
+			"North America",
+			"</h2>",
+			"{{store url='environments/",
+			"non",
+			"viceo",
+			"                        \n",
+			"                        ",
+			"                        \n",
+			"\n                        ",
+			"                        \n",
+			"<img src=\"\" />",
+			"pineapple",
+			"<img src=\"\" />",
+			"springtime",
+			"page_three_columns",
+			"avant",
+			"page-title h1",
+			"jspcontaner",
+			"desc std",
+			"product_tabs_custom_contents",
+			"quick",
+			"quick-view",
+			"loader",
+			"load",
+			"loading",
+			"shadow",
+			"page-title",
+			"1024px",
+			".page",
+			"bread",
+			"#nav",
+			".button",
+			"nav",
+			"url('",
+			".page-title",
+			".item",
+			"headrow",
+			"actions",
+			"setLocationAjax('<?php echo $this->getAddToCartUrl($_product) ?>','<?php echo $_product->getId()?>')",
+			"Add to Cart",
+			"actions",
+			"add to cart",
+			"#product_tabs_tags_tabbed_contents",
+			"#AAAAD3",
+			"</option>",
+			"\">"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 285.0,
+	"status_bar_visible": true
+}

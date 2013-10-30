@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+<modules>
+  <Fruit_Banana>
+    <version>0.1.0</version>
+  </Fruit_Banana>
+</modules>
+<global>
+  <page>
+    <layouts>
+      <fragrance_page_layout translate="label">
+        <label>Fragrance Page</label>
+        <template>page/fragrances.phtml</template>
+        <layout_handle>Fragrance_Page</layout_handle>
+      </fragrance_page_layout>
+      <!-- add more layouts here -->
+    </layouts>
+    <layouts>
+      <environments_page_layout translate="label">
+        <label>Environments Page</label>
+        <template>page/environments.phtml</template>
+        <layout_handle>Environments_Page</layout_handle>
+      </environments_page_layout>
+      <!-- add more layouts here -->
+    </layouts>
+	<layouts>
+      <category_page_layout translate="label">
+        <label>Category Page</label>
+        <template>catalog/category/subcategorylist.phtml</template>
+        <layout_handle>Category_Page</layout_handle>
+      </category_page_layout>
+      <!-- add more layouts here -->
+    </layouts>
+  </page>
+</global>
+</config>
